@@ -36,6 +36,9 @@ export default function App() {
           backgroundColor: chosenColor,
           width: '800px',
           height: '400px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
         }}
       >
         Color : {chosenColor}
@@ -68,6 +71,7 @@ export default function App() {
             id="width"
             placeholder="500px"
           />
+          generate random color
         </button2>
       </div>
     </div>
