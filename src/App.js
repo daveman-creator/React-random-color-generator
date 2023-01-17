@@ -43,37 +43,7 @@ export default function App() {
       >
         Color : {chosenColor}
       </div>
-      <div>
-        <h3>
-          Would you like the color to be a certain hue and luminosity? and
-          resizing it?
-        </h3>
-        <button1 setColor={setColor} luminosity={luminosity}>
-          Luminosity
-          <br />
-          <input
-            htmlFor="height"
-            text="height (in px)"
-            type="number"
-            id="height"
-            placeholder="500px"
-          />
-        </button1>
-        <br />
-        <button2 setColor={setColor} hue={hue}>
-          <br />
-          Hue
-          <br />
-          <input
-            htmlFor="width"
-            text="width (in px)"
-            type="number"
-            id="width"
-            placeholder="500px"
-          />
-          generate random color
-        </button2>
-      </div>
+      <div></div>
     </div>
   );
 }
