@@ -7,18 +7,11 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "button": "^1.1.1",
     "clipboard-copy": "^4.0.1",
-    "color": "^4.2.3",
-    "input": "^1.0.1",
-    "random": "^4.1.0",
-    "random-color": "^1.0.1",
     "randomcolor": "^0.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "style": "^0.0.3",
-    "style.css": "^1.0.3",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
