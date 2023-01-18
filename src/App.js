@@ -44,6 +44,3 @@ export default function App() {
     </div>
   );
 }
-{
-  /* <div style = {{width:'300px', height:'150px', border:'1px solid black', marginTop:'15px'}}></div> */
-}
