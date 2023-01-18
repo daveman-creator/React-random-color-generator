@@ -15,6 +15,8 @@ const frame = css`
   align-items: center;
   justify-content: center;
   border-radius: 12px;
+  color: #ff0000;
+  background: azure;
 `;
 
 const center = css`
@@ -55,13 +57,7 @@ export default function App() {
   `;
 
   return (
-    <div
-      style={{
-        color: '#FF0000',
-        background: 'azure',
-      }}
-      css={frame}
-    >
+    <div css={frame}>
       <h1>Random Color Generator</h1>
 
       <h3>Change color to be a certain hue and luminosity</h3>
