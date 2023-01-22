@@ -39,7 +39,7 @@ export default function App() {
           backgroundColor: color,
         }}
       >
-        Color: {color}
+        Generated Color: {color}
       </div>
     </div>
   );
