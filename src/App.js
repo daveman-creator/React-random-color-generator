@@ -2,8 +2,8 @@ import randomColor from 'randomcolor';
 import React, { useState } from 'react';
 
 export default function App() {
-  const [color, setColor] = useState(randomColor()); //
-  // const [chosenColor, setChosenColor] = useState('');
+  const [color, setColor] = useState(randomColor());
+
   return (
     <div style={{ margin: '50px', background: 'azure' }}>
       <h2>Random Color Generator</h2>
@@ -25,7 +25,6 @@ export default function App() {
         value={color}
         onChange={(event) => {
           setColor(event.currentTarget.value);
-          console.log(randomColor.find(event.currentTarget).color);
         }}
       />
 
